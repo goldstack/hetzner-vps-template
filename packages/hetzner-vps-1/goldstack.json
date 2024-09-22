@@ -1,0 +1,34 @@
+{
+  "$schema": "./schemas/package.schema.json",
+  "name": "hetzner-vps-1",
+  "template": "hetzner-vps",
+  "templateVersion": "0.1.0",
+  "configuration": {},
+  "deployments": [
+    {
+      "name": "prod",
+      "awsUser": "goldstack-dev",
+      "awsRegion": "us-west-2",
+      "configuration": {
+        "location": "hil",
+        "serverType": "cpx11",
+        "sshUserFingerprint": "49:35:14:98:08:d4:71:a6:04:c2:f6",
+        "serverName": "goldstack-ci-test",
+        "environmentVariables": [
+          {
+            "name": "DUMMY_ENV",
+            "value": "I rock"
+          },
+          {
+            "name": "HTTP_PORT",
+            "value": "80"
+          },
+          {
+            "name": "HTTPS_PORT",
+            "value": "443"
+          }
+        ]
+      }
+    }
+  ]
+}
