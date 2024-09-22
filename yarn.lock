@@ -2064,9 +2064,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-hetzner-vps-cli@npm:0.1.5":
-  version: 0.1.5
-  resolution: "@goldstack/template-hetzner-vps-cli@npm:0.1.5"
+"@goldstack/template-hetzner-vps-cli@npm:0.1.6":
+  version: 0.1.6
+  resolution: "@goldstack/template-hetzner-vps-cli@npm:0.1.6"
   dependencies:
     "@aws-sdk/client-iam": "npm:^3.645.0"
     "@aws-sdk/client-s3": "npm:3.620.0"
@@ -2086,7 +2086,7 @@ __metadata:
   bin:
     template: ./bin/template
     template-email-send: ./bin/template
-  checksum: 9e13a305a0e665596c3a04edeecc6f908501811ad96b1bfff250c752d0aa85532ed346ee7fb66bda130e96fd954820ba42a5f0bda91df9a42ec6d295a792215c
+  checksum: 07e00992e7f6b68cd4ccc3891c91b234ab63eb509c5d543155c4eda120d2c18a3464d6ecfb6bce4af07b42787df776631ad8ae2b433bf11c6e0ccda593188db9
   languageName: node
   linkType: hard
 
@@ -6230,7 +6230,7 @@ __metadata:
   resolution: "hetzner-vps-1@workspace:packages/hetzner-vps-1"
   dependencies:
     "@goldstack/template-hetzner-vps": "npm:0.1.4"
-    "@goldstack/template-hetzner-vps-cli": "npm:0.1.5"
+    "@goldstack/template-hetzner-vps-cli": "npm:0.1.6"
     "@goldstack/utils-git": "npm:0.2.9"
     "@goldstack/utils-sh": "npm:0.5.10"
     "@swc/core": "npm:^1.3.74"

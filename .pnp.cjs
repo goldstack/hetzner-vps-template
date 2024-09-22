@@ -2667,10 +2667,10 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-hetzner-vps-cli", [\
-      ["npm:0.1.5", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-hetzner-vps-cli-npm-0.1.5-a68b705262-9e13a305a0.zip/node_modules/@goldstack/template-hetzner-vps-cli/",\
+      ["npm:0.1.6", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-hetzner-vps-cli-npm-0.1.6-b8377b6710-07e00992e7.zip/node_modules/@goldstack/template-hetzner-vps-cli/",\
         "packageDependencies": [\
-          ["@goldstack/template-hetzner-vps-cli", "npm:0.1.5"],\
+          ["@goldstack/template-hetzner-vps-cli", "npm:0.1.6"],\
           ["@aws-sdk/client-iam", "npm:3.645.0"],\
           ["@aws-sdk/client-s3", "npm:3.620.0"],\
           ["@aws-sdk/s3-request-presigner", "npm:3.645.0"],\
@@ -7430,7 +7430,7 @@ const RAW_RUNTIME_STATE =
         "packageDependencies": [\
           ["hetzner-vps-1", "workspace:packages/hetzner-vps-1"],\
           ["@goldstack/template-hetzner-vps", "npm:0.1.4"],\
-          ["@goldstack/template-hetzner-vps-cli", "npm:0.1.5"],\
+          ["@goldstack/template-hetzner-vps-cli", "npm:0.1.6"],\
           ["@goldstack/utils-git", "npm:0.2.9"],\
           ["@goldstack/utils-sh", "npm:0.5.10"],\
           ["@swc/core", "virtual:597045c1efe9d47bfbc154a42154773943e2d27cd2f7c6b6589d9ac6b9de7889616fd93ed452da5dec67eb71a3c2f696407bc4821b4030d0d0ae4764dcf8a120#npm:1.3.74"],\
