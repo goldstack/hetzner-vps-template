@@ -10,12 +10,12 @@
       "ipv6_address": {
         "sensitive": false,
         "type": "string",
-        "value": "2a01:4ff:1f0:c35e::1"
+        "value": "2a01:4ff:1f0:eac5::1"
       },
       "server_id": {
         "sensitive": false,
         "type": "string",
-        "value": "55756330"
+        "value": "55924578"
       }
     }
   }
