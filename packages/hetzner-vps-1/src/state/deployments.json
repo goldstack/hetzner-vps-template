@@ -5,7 +5,7 @@
       "ipv4_address": {
         "sensitive": false,
         "type": "string",
-        "value": "5.78.125.141"
+        "value": "5.78.114.214"
       },
       "ipv6_address": {
         "sensitive": false,
@@ -15,7 +15,7 @@
       "server_id": {
         "sensitive": false,
         "type": "string",
-        "value": "57513991"
+        "value": "57675771"
       }
     }
   }
