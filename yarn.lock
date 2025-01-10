@@ -2605,15 +2605,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@goldstack/template-hetzner-vps-cli@npm:0.1.29":
-  version: 0.1.29
-  resolution: "@goldstack/template-hetzner-vps-cli@npm:0.1.29"
+"@goldstack/template-hetzner-vps-cli@npm:0.1.30":
+  version: 0.1.30
+  resolution: "@goldstack/template-hetzner-vps-cli@npm:0.1.30"
   dependencies:
     "@aws-sdk/client-iam": "npm:^3.645.0"
     "@aws-sdk/client-s3": "npm:3.620.0"
     "@aws-sdk/s3-request-presigner": "npm:^3.645.0"
     "@goldstack/infra-aws": "npm:0.4.32"
-    "@goldstack/template-hetzner-vps": "npm:0.1.26"
+    "@goldstack/template-hetzner-vps": "npm:0.1.27"
     "@goldstack/utils-cli": "npm:0.3.16"
     "@goldstack/utils-log": "npm:0.3.18"
     "@goldstack/utils-package": "npm:0.4.22"
@@ -2628,13 +2628,13 @@ __metadata:
   bin:
     template: ./bin/template
     template-email-send: ./bin/template
-  checksum: 10/00155261d329f7d5c72a777f3d03bf56c541aa12787134a5e5931a84d53da3aee9442c40a49a5406ef860bb5228eafba1c4fb0ce9a17d9ef55563ad1fc3a14db
+  checksum: 10/b8c71b8ebb207901bba263c109690942892556ad5079aa023101cb45e56b4e81cb132d712b5ebd4c67f26501e4a81c8001d86e0f385b26fa35a0cf344bbc9b42
   languageName: node
   linkType: hard
 
-"@goldstack/template-hetzner-vps@npm:0.1.26":
-  version: 0.1.26
-  resolution: "@goldstack/template-hetzner-vps@npm:0.1.26"
+"@goldstack/template-hetzner-vps@npm:0.1.27":
+  version: 0.1.27
+  resolution: "@goldstack/template-hetzner-vps@npm:0.1.27"
   dependencies:
     "@aws-sdk/credential-providers": "npm:3.645.0"
     "@aws-sdk/types": "npm:^3.609.0"
@@ -2647,8 +2647,8 @@ __metadata:
     "@goldstack/utils-package-config-embedded": "npm:0.5.23"
     "@goldstack/utils-terraform": "npm:0.4.42"
     "@goldstack/utils-terraform-aws": "npm:0.4.45"
-    uuid: "npm:^8.3.0"
-  checksum: 10/3c1ea9ca14805dd7f9cb5a1286bd65a1b8f11295cbe42d90956898561a6aa20cd24bdbf63aad8f82b1a73915dfb4c9dda77e9f5f9b2c6066218fc3058b2b99cc
+    uuid: "npm:^11.0.5"
+  checksum: 10/2153b7bfced18cc02d5f4e01f9353908d1a876d53b2238e5f0e55776b82276dde38a4f1ac036c9b7cad2ffd538c821366322762525bd1b59f5c63052765b06cc
   languageName: node
   linkType: hard
 
@@ -7261,8 +7261,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "hetzner-vps-1@workspace:packages/hetzner-vps-1"
   dependencies:
-    "@goldstack/template-hetzner-vps": "npm:0.1.26"
-    "@goldstack/template-hetzner-vps-cli": "npm:0.1.29"
+    "@goldstack/template-hetzner-vps": "npm:0.1.27"
+    "@goldstack/template-hetzner-vps-cli": "npm:0.1.30"
     "@goldstack/utils-git": "npm:0.2.12"
     "@goldstack/utils-sh": "npm:0.5.21"
     "@swc/core": "npm:^1.10.1"
@@ -10681,12 +10681,12 @@ __metadata:
   languageName: node
   linkType: hard
 
-"uuid@npm:^8.3.0":
-  version: 8.3.0
-  resolution: "uuid@npm:8.3.0"
+"uuid@npm:^11.0.5":
+  version: 11.0.5
+  resolution: "uuid@npm:11.0.5"
   bin:
-    uuid: dist/bin/uuid
-  checksum: 10/a9760cd58e2cec7015d5e1a615f6c4ed8d0bf47574558fb49ccb7fd6021f50311cc8a091099ee1f9ead3e823b95f1a661be3b0dcdd5ff15cd8d4e23b53430308
+    uuid: dist/esm/bin/uuid
+  checksum: 10/0594ecdff3051e15d4a2c614b4c72e73af373bde0a5d156512353c01156975295d024ae8d7151846d7bd4d22ccd251b16ed51b4318fa71505fb20ad984102dc1
   languageName: node
   linkType: hard
 
