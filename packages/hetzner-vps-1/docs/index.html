@@ -897,6 +897,113 @@
   <code class="inline">goldstack.json</code>.
 </p>
 <h2 class="heading">
+  <span id="environment-variables"></span
+  ><a href="#environment-variables">Environment Variables</a
+  ><span class="permalink"
+    ><svg viewBox="0 0 16 16" width="16" height="16">
+      <g stroke-width="1" fill="#000000" stroke="#000000">
+        <path
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-miterlimit="10"
+          d="M8.995,7.005 L8.995,7.005c1.374,1.374,1.374,3.601,0,4.975l-1.99,1.99c-1.374,1.374-3.601,1.374-4.975,0l0,0c-1.374-1.374-1.374-3.601,0-4.975 l1.748-1.698"
+        ></path>
+        <path
+          fill="none"
+          stroke="#000000"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-miterlimit="10"
+          d="M7.005,8.995 L7.005,8.995c-1.374-1.374-1.374-3.601,0-4.975l1.99-1.99c1.374-1.374,3.601-1.374,4.975,0l0,0c1.374,1.374,1.374,3.601,0,4.975 l-1.748,1.698"
+        ></path>
+      </g></svg
+  ></span>
+</h2>
+<p>Environment variables can be supplied in a number of ways.</p>
+<h3 class="heading">
+  <span id="for-local-development"></span
+  ><a href="#for-local-development">For Local Development</a
+  ><span class="permalink"
+    ><svg viewBox="0 0 16 16" width="16" height="16">
+      <g stroke-width="1" fill="#000000" stroke="#000000">
+        <path
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-miterlimit="10"
+          d="M8.995,7.005 L8.995,7.005c1.374,1.374,1.374,3.601,0,4.975l-1.99,1.99c-1.374,1.374-3.601,1.374-4.975,0l0,0c-1.374-1.374-1.374-3.601,0-4.975 l1.748-1.698"
+        ></path>
+        <path
+          fill="none"
+          stroke="#000000"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-miterlimit="10"
+          d="M7.005,8.995 L7.005,8.995c-1.374-1.374-1.374-3.601,0-4.975l1.99-1.99c1.374-1.374,3.601-1.374,4.975,0l0,0c1.374,1.374,1.374,3.601,0,4.975 l-1.748,1.698"
+        ></path>
+      </g></svg
+  ></span>
+</h3>
+<p>
+  Define environment variables in a <code class="inline">.env</code> file,
+  stored in the <code class="inline">server/</code> directory.
+</p>
+<pre><code>MY_ENV=value
+</code></pre>
+<h3 class="heading">
+  <span id="for-deployments"></span
+  ><a href="#for-deployments">For Deployments</a
+  ><span class="permalink"
+    ><svg viewBox="0 0 16 16" width="16" height="16">
+      <g stroke-width="1" fill="#000000" stroke="#000000">
+        <path
+          fill="none"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-miterlimit="10"
+          d="M8.995,7.005 L8.995,7.005c1.374,1.374,1.374,3.601,0,4.975l-1.99,1.99c-1.374,1.374-3.601,1.374-4.975,0l0,0c-1.374-1.374-1.374-3.601,0-4.975 l1.748-1.698"
+        ></path>
+        <path
+          fill="none"
+          stroke="#000000"
+          stroke-linecap="round"
+          stroke-linejoin="round"
+          stroke-miterlimit="10"
+          d="M7.005,8.995 L7.005,8.995c-1.374-1.374-1.374-3.601,0-4.975l1.99-1.99c1.374-1.374,3.601-1.374,4.975,0l0,0c1.374,1.374,1.374,3.601,0,4.975 l-1.748,1.698"
+        ></path>
+      </g></svg
+  ></span>
+</h3>
+<p>
+  Define environment variables for deployments in their
+  <code class="inline">"configuration"</code> in
+  <code class="inline">goldstack.json</code>:
+</p>
+<pre
+  class="language-json"
+><code class="language-json"> <span class="token property">"deployments"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+    <span class="token punctuation">{</span>
+      <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"prod"</span><span class="token punctuation">,</span>
+      <span class="token property">"configuration"</span><span class="token operator">:</span> <span class="token punctuation">{</span>
+        <span class="token property">"environmentVariables"</span><span class="token operator">:</span> <span class="token punctuation">[</span>
+          <span class="token punctuation">{</span>
+            <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"DUMMY_ENV"</span><span class="token punctuation">,</span>
+            <span class="token property">"value"</span><span class="token operator">:</span> <span class="token string">"I rock"</span>
+          <span class="token punctuation">}</span><span class="token punctuation">,</span>
+          <span class="token punctuation">{</span>
+            <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"HTTP_PORT"</span><span class="token punctuation">,</span>
+            <span class="token property">"value"</span><span class="token operator">:</span> <span class="token string">"80"</span>
+          <span class="token punctuation">}</span><span class="token punctuation">,</span>
+          <span class="token punctuation">{</span>
+            <span class="token property">"name"</span><span class="token operator">:</span> <span class="token string">"HTTPS_PORT"</span><span class="token punctuation">,</span>
+            <span class="token property">"value"</span><span class="token operator">:</span> <span class="token string">"443"</span>
+          <span class="token punctuation">}</span>
+        <span class="token punctuation">]</span>
+      <span class="token punctuation">}</span><span class="token punctuation">,</span>
+    <span class="token punctuation">}</span>
+</code></pre>
+<h2 class="heading">
   <span id="secrets"></span><a href="#secrets">Secrets</a
   ><span class="permalink"
     ><svg viewBox="0 0 16 16" width="16" height="16">
