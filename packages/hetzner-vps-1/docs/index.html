@@ -1070,17 +1070,31 @@
 </p>
 <p>
   In the GitHub action, one can use GitHub secrets to set the content of
-  <code class="inline">dist/credentials/credentials</code> with the secrets
-  required before the infrastructure is created and before a deployment.
+  <code class="inline">credentials.json</code> with the secrets required before
+  the infrastructure is created and before a deployment.
 </p>
 <pre
   class="language-yaml"
-><code class="language-yaml"><span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Create JSON file
+><code class="language-yaml"><span class="token punctuation">-</span> <span class="token key atrule">name</span><span class="token punctuation">:</span> Create credentials file
   <span class="token key atrule">run</span><span class="token punctuation">:</span> <span class="token punctuation">|</span><span class="token scalar string">
-    echo '{
-      "secret1": "${{ secrets.SECRET1 }}",
-      "secret2": "${{ secrets.SECRET2 }}",
-      "secret3": "${{ secrets.SECRET3 }}"
-    }' > dist/credentials/credentials</span>
+    cd packages/node2
+    echo '
+    {
+      "dev": {
+        "CF_TUNNEL": "${{ secrets.CF_TUNNEL_DEV }}",
+        "AWS_ACCESS_KEY_ID": "${{secrets.AWS_ACCESS_KEY_ID_DEV}}",
+        "AWS_SECRET_ACCESS_KEY": "${{secrets.AWS_SECRET_ACCESS_KEY_DEV}}",
+      }
+    }' > credentials.json</span>
 </code></pre>
-<p>Note the key / name of the secret should always be in camel case.</p>
+<p>
+  These secrets will be written into the
+  <code class="inline">server/secrets</code> folder. For instance:
+  <code class="inline">server/secrets/secret1.txt</code>.
+</p>
+<p>
+  Note these secrets will be loaded as environment variables on the server
+  during <code class="inline">yarn deploy [environment]</code> within the
+  scripts <code class="inline">init.sh</code> and
+  <code class="inline">start.sh</code>.
+</p>
