@@ -2355,45 +2355,45 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/template-hetzner-vps", [\
-      ["npm:0.1.58", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-hetzner-vps-npm-0.1.58-758e9136e8-649551dc8f.zip/node_modules/@goldstack/template-hetzner-vps/",\
+      ["npm:0.1.59", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-hetzner-vps-npm-0.1.59-f80570f524-5e6129a9dc.zip/node_modules/@goldstack/template-hetzner-vps/",\
         "packageDependencies": [\
           ["@aws-sdk/credential-providers", "npm:3.1004.0"],\
           ["@aws-sdk/types", "npm:3.973.5"],\
           ["@goldstack/infra", "npm:0.4.39"],\
           ["@goldstack/infra-aws", "npm:0.4.59"],\
           ["@goldstack/infra-hetzner", "npm:0.1.36"],\
-          ["@goldstack/template-hetzner-vps", "npm:0.1.58"],\
+          ["@goldstack/template-hetzner-vps", "npm:0.1.59"],\
           ["@goldstack/utils-cli", "npm:0.3.31"],\
           ["@goldstack/utils-esbuild", "npm:0.5.26"],\
           ["@goldstack/utils-package", "npm:0.4.41"],\
           ["@goldstack/utils-package-config-embedded", "npm:0.5.42"],\
-          ["@goldstack/utils-terraform", "npm:0.4.73"],\
-          ["@goldstack/utils-terraform-aws", "npm:0.4.77"],\
+          ["@goldstack/utils-terraform", "npm:0.4.74"],\
+          ["@goldstack/utils-terraform-aws", "npm:0.4.78"],\
           ["uuid", "npm:11.0.5"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@goldstack/template-hetzner-vps-cli", [\
-      ["npm:0.1.65", {\
-        "packageLocation": "./.yarn/cache/@goldstack-template-hetzner-vps-cli-npm-0.1.65-d8d6d50ddf-9742c31277.zip/node_modules/@goldstack/template-hetzner-vps-cli/",\
+      ["npm:0.1.66", {\
+        "packageLocation": "./.yarn/cache/@goldstack-template-hetzner-vps-cli-npm-0.1.66-5257b6b381-30817e2476.zip/node_modules/@goldstack/template-hetzner-vps-cli/",\
         "packageDependencies": [\
           ["@aws-sdk/client-iam", "npm:3.1004.0"],\
           ["@aws-sdk/client-s3", "npm:3.1004.0"],\
           ["@aws-sdk/s3-request-presigner", "npm:3.1004.0"],\
           ["@goldstack/infra-aws", "npm:0.4.59"],\
-          ["@goldstack/template-hetzner-vps", "npm:0.1.58"],\
-          ["@goldstack/template-hetzner-vps-cli", "npm:0.1.65"],\
+          ["@goldstack/template-hetzner-vps", "npm:0.1.59"],\
+          ["@goldstack/template-hetzner-vps-cli", "npm:0.1.66"],\
           ["@goldstack/utils-cli", "npm:0.3.31"],\
           ["@goldstack/utils-log", "npm:0.3.33"],\
           ["@goldstack/utils-package", "npm:0.4.41"],\
           ["@goldstack/utils-package-config", "npm:0.4.41"],\
           ["@goldstack/utils-s3-deployment", "npm:0.5.63"],\
           ["@goldstack/utils-sh", "npm:0.5.38"],\
-          ["@goldstack/utils-terraform", "npm:0.4.73"],\
-          ["@goldstack/utils-terraform-aws", "npm:0.4.77"],\
-          ["@goldstack/utils-terraform-hetzner", "npm:0.1.56"],\
+          ["@goldstack/utils-terraform", "npm:0.4.74"],\
+          ["@goldstack/utils-terraform-aws", "npm:0.4.78"],\
+          ["@goldstack/utils-terraform-hetzner", "npm:0.1.57"],\
           ["source-map-support", "npm:0.5.21"],\
           ["yargs", "npm:17.7.2"]\
         ],\
@@ -2537,8 +2537,8 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/utils-terraform", [\
-      ["npm:0.4.73", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-npm-0.4.73-65f0957b2c-8867614ca6.zip/node_modules/@goldstack/utils-terraform/",\
+      ["npm:0.4.74", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-npm-0.4.74-d3963c4c8a-3bac68eac3.zip/node_modules/@goldstack/utils-terraform/",\
         "packageDependencies": [\
           ["@goldstack/infra", "npm:0.4.39"],\
           ["@goldstack/infra-aws", "npm:0.4.59"],\
@@ -2547,7 +2547,7 @@ const RAW_RUNTIME_STATE =
           ["@goldstack/utils-log", "npm:0.3.33"],\
           ["@goldstack/utils-package", "npm:0.4.41"],\
           ["@goldstack/utils-sh", "npm:0.5.38"],\
-          ["@goldstack/utils-terraform", "npm:0.4.73"],\
+          ["@goldstack/utils-terraform", "npm:0.4.74"],\
           ["json-stable-stringify", "npm:1.0.1"],\
           ["yargs", "npm:17.7.2"]\
         ],\
@@ -2555,8 +2555,8 @@ const RAW_RUNTIME_STATE =
       }]\
     ]],\
     ["@goldstack/utils-terraform-aws", [\
-      ["npm:0.4.77", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-aws-npm-0.4.77-6debd53528-b9be3645af.zip/node_modules/@goldstack/utils-terraform-aws/",\
+      ["npm:0.4.78", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-aws-npm-0.4.78-7968fb9550-2631e25525.zip/node_modules/@goldstack/utils-terraform-aws/",\
         "packageDependencies": [\
           ["@aws-sdk/client-dynamodb", "npm:3.1004.0"],\
           ["@aws-sdk/client-s3", "npm:3.1004.0"],\
@@ -2567,24 +2567,24 @@ const RAW_RUNTIME_STATE =
           ["@goldstack/utils-log", "npm:0.3.33"],\
           ["@goldstack/utils-package", "npm:0.4.41"],\
           ["@goldstack/utils-sh", "npm:0.5.38"],\
-          ["@goldstack/utils-terraform", "npm:0.4.73"],\
-          ["@goldstack/utils-terraform-aws", "npm:0.4.77"]\
+          ["@goldstack/utils-terraform", "npm:0.4.74"],\
+          ["@goldstack/utils-terraform-aws", "npm:0.4.78"]\
         ],\
         "linkType": "HARD"\
       }]\
     ]],\
     ["@goldstack/utils-terraform-hetzner", [\
-      ["npm:0.1.56", {\
-        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-hetzner-npm-0.1.56-b5b193baf4-3a5d5b7a30.zip/node_modules/@goldstack/utils-terraform-hetzner/",\
+      ["npm:0.1.57", {\
+        "packageLocation": "./.yarn/cache/@goldstack-utils-terraform-hetzner-npm-0.1.57-1c1796d534-36c4c21b5f.zip/node_modules/@goldstack/utils-terraform-hetzner/",\
         "packageDependencies": [\
           ["@goldstack/infra-hetzner", "npm:0.1.36"],\
           ["@goldstack/utils-config", "npm:0.4.39"],\
           ["@goldstack/utils-log", "npm:0.3.33"],\
           ["@goldstack/utils-package", "npm:0.4.41"],\
           ["@goldstack/utils-sh", "npm:0.5.38"],\
-          ["@goldstack/utils-terraform", "npm:0.4.73"],\
-          ["@goldstack/utils-terraform-aws", "npm:0.4.77"],\
-          ["@goldstack/utils-terraform-hetzner", "npm:0.1.56"]\
+          ["@goldstack/utils-terraform", "npm:0.4.74"],\
+          ["@goldstack/utils-terraform-aws", "npm:0.4.78"],\
+          ["@goldstack/utils-terraform-hetzner", "npm:0.1.57"]\
         ],\
         "linkType": "HARD"\
       }]\
@@ -6253,8 +6253,8 @@ const RAW_RUNTIME_STATE =
       ["workspace:packages/hetzner-vps-1", {\
         "packageLocation": "./packages/hetzner-vps-1/",\
         "packageDependencies": [\
-          ["@goldstack/template-hetzner-vps", "npm:0.1.58"],\
-          ["@goldstack/template-hetzner-vps-cli", "npm:0.1.65"],\
+          ["@goldstack/template-hetzner-vps", "npm:0.1.59"],\
+          ["@goldstack/template-hetzner-vps-cli", "npm:0.1.66"],\
           ["@goldstack/utils-sh", "npm:0.5.38"],\
           ["@swc/core", "virtual:597045c1efe9d47bfbc154a42154773943e2d27cd2f7c6b6589d9ac6b9de7889616fd93ed452da5dec67eb71a3c2f696407bc4821b4030d0d0ae4764dcf8a120#npm:1.15.8"],\
           ["@swc/jest", "virtual:597045c1efe9d47bfbc154a42154773943e2d27cd2f7c6b6589d9ac6b9de7889616fd93ed452da5dec67eb71a3c2f696407bc4821b4030d0d0ae4764dcf8a120#npm:0.2.39"],\
