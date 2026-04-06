@@ -29,7 +29,8 @@
             "value": "443"
           }
         ]
-      }
+      },
+      "tfStateKey": "hetzner-vps-1-prod-d1e3fcd814007cff7714.tfstate"
     }
   ]
 }
